@@ -20,6 +20,9 @@ SSMS -> login as localhost -> Security  ->  Logins -> New Login ->  complete Log
 ....
 
 4- Open "Package Manager Console" :     PM>   Update-Database
+
+
+
 Also Swagger documentation :   https://localhost:5001/swagger/index.html   
 
 
