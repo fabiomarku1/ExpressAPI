@@ -81,6 +81,8 @@ public class UserService : IUserService
 
     public async Task<bool> DeleteUser(int userId)
     {
+        if (userId == 1 || userId == 2) throw new BadRequestException("Nuk duhet fshire ky !");
+
         var user = await _repositoryManager.UserRepository.GetRecordById(userId);
         if (user is null) throw new BadRequestException("no user was found!");
 

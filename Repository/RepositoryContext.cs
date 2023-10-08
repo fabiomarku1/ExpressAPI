@@ -21,6 +21,8 @@ public class RepositoryContext : IdentityDbContext<ApplicationUser, ApplicationR
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfiguration(new RoleConfiguration());
+        modelBuilder.ApplyConfiguration(new UsersConfiguration());
+        modelBuilder.ApplyConfiguration(new UserRolesConfiguration());
     }
 
     public DbSet<ApplicationUser> ApplicationUsers { get; set; }
