@@ -5,7 +5,6 @@ Simple fullstack authentication project using ASP.NET Core Web Api as backend an
 MANUAL
 1- git clone :   https://github.com/fabiomarku1/ExpressAPI.git    (back)
 
-2- tek SQL Server duhet krijuar nje user password:
 2- At the SQL Server should be created a new user password ( also existing ones can be used) .
 
 SSMS -> login as localhost -> Security  ->  Logins -> New Login ->  complete Login and Password -> Add "Server Roles" 
